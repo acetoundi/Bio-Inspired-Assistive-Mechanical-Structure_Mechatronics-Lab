@@ -103,7 +103,7 @@ void processMotor(MotorControl& motor, String& debugOutput) {
     // Read calibrated ADC values from the control pins
     int adc_input = 0;
     if (motor.motor_name == "Elbow") {
-        adc_input = readCalibratedADC(ADC1_CHANNEL_3);
+        adc_input = readCalibratedADC(ADC1_CHANNEL_4);
     } else {
         adc_input = readCalibratedADC(ADC1_CHANNEL_1);
     }
