@@ -6,6 +6,8 @@ The aim is to support students to learn, experiment, and innovate in the field o
 
 Arduino IDE library **autowp-mcp2515**, from **autowp** is required.
 
+Warning: Never try applying more than 3.1V on the Analogue Inputs of the ESP32s3 in the Exoskeleton Tribonix Link. 
+
 ## Table of Contents
 1. [How to Start Development](#how-to-start-development)
 2. [Setup Arduino for Espressif's ESP32S3 Development](#setup-arduino-for-espressifs-esp32s3-development-using-arduino-core)
